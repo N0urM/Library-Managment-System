@@ -67,7 +67,11 @@ struct studentData{
 	void printNodes(Node *head){
 		Node* temp = head;
 		while (temp != NULL){
-			printf("Node: %s\t" , temp->name);
+			printf("ID: %2d\t" , temp->id);
+			printf("Name: %s\t" , temp->name);
+			printf("Age: %2d\t", temp->age);
+			printf("Gender: %s\t\n" , temp->gender);
+			
 			temp = temp->ptr;
 		}
 		printf("\n");

@@ -165,6 +165,13 @@ void deleteStudentRecord(){
     printf("Record not found\n");
     return;
   }
+   int i;
+    for(i=0 ; i< 10 ; i++){
+      if(booklist[i].status == 1 && booklist[i].studentID == id){
+        printf("User has reserved book, Cancel reservation to delete.");
+        return;
+      }
+    }
   deleteNode(&Shead, &Stail , id);
   printf("Record deleted\n");
   printNodes(Shead);
@@ -204,7 +211,7 @@ void reserveBook(){
       {
         if ( booklist[id].status == 0){
           booklist[id].status = 1;
-          booklist[id].studentID= studentid;
+          booklist[id].studentID = studentid;
           printf("Book is available, reservation complete\n");
 
         }
