@@ -12,28 +12,29 @@ int main()
   printf("\tWelcome to library system\n\t");
   printf("Please select a mode...\n\t1.Admin mode\n\t2.User mode\n\t3.Exit\n\n");
 
-  int x ;
-  scanf("%d" ,&x);
+  char x  ;
+  scanf("%s" ,&x);
   while(x!=3){
+    
     switch (x)
     {
-    case 1:
+    case '1':
       printf("\tAdmin mode selected\n\n");
       adminLogin();
       break;
-    case 2:
+    case '2':
       printf("\tUser mode selected\n\n");
       userLogin();
       break;
-    case 3:
+    case '3':
       return 0;
     default:
       printf("\tinvalid choice\n\n");
     }
-    printf("Please selesct a mode...\n\t1.Admin mode\n\t2.User mode\n\t3.Exit\n\n");
-    scanf("%d" , &x);
+    printf("Please select a mode...\n\t1.Admin mode\n\t2.User mode\n\t3.Exit\n");
+    scanf(" %s" , &x);
+  
   }
-
 }
 
 void adminLogin(){
@@ -44,7 +45,7 @@ void adminLogin(){
     printf("\tLogged in succefully..\n\n");
     adminMode();
   }else {
-    printf("Wrong login details.. Exitting");
+    printf("Wrong login details.. Exitting\n");
     return;
   }
 }

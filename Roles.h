@@ -82,6 +82,10 @@ void addStudentRecord (){
       printf("ID already exists\n");
       return;
     }
+    if(id==0){
+      printf("ID can't be zero\n");
+      return;
+    }
     printf("Enter student name: ");
     char Name[20];
     scanf("%s" , Name);
