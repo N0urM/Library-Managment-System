@@ -1,29 +1,16 @@
 # depslib dependency file v1.0
-1557773257 source:e:\c_code\liibrarymanagmentsystem\main.c
-	<stdio.h>
-	<stdlib.h>
-	"stdTypes.h"
-	"linkedListClass.h"
-
-1554914381 e:\c_code\liibrarymanagmentsystem\stdtypes.h
-
-1557773654 e:\c_code\liibrarymanagmentsystem\linkedlistclass.h
-	<stdio.h>
-	<stdlib.h>
-	"stdTypes.h"
-
-1557889775 source:e:\c_code\lib\main.c
+1557948607 source:e:\c_code\library manager\main.c
 	<stdio.h>
 	<stdlib.h>
 	"stdTypes.h"
 	"Roles.h"
 
-1554914381 e:\c_code\lib\stdtypes.h
+1554914381 e:\c_code\library manager\stdtypes.h
 
-1557927770 e:\c_code\lib\roles.h
+1557994201 e:\c_code\library manager\roles.h
 	"linkedListClass.h"
 
-1557890599 e:\c_code\lib\linkedlistclass.h
+1558032297 e:\c_code\library manager\linkedlistclass.h
 	<stdio.h>
 	<stdlib.h>
 	"stdTypes.h"

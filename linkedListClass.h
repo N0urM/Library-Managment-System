@@ -102,11 +102,11 @@ struct studentData{
 		// Edit only the one varibalie modified using initial conditions
 		if(student->age != 0)
 			temp->age = student->age;
-		if(student->gender != "")
+		if( strcmp( student->gender , "") )
 			strcpy (temp->gender , student->gender);
 		if(student->id != 0)
 			temp->id = student->id;
-		if(student->name != "")
+		if( strcmp (student->name , "") )
 			strcpy(temp->name , student->name);
 		
 	}
