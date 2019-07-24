@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1557948607 source:e:\c_code\library manager\main.c
+1558032470 source:e:\c_code\library manager\main.c
 	<stdio.h>
 	<stdlib.h>
 	"stdTypes.h"

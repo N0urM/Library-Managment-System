@@ -32,7 +32,7 @@ int main()
       printf("\tinvalid choice\n\n");
     }
     printf("Please select a mode...\n\t1.Admin mode\n\t2.User mode\n\t3.Exit\n");
-    scanf(" %s" , &x);
+    scanf("%d" , &x);
 
   }
 }
